@@ -1,0 +1,31 @@
+PODS:
+  - PromiseKit (4.2.0):
+    - PromiseKit/Foundation (= 4.2.0)
+    - PromiseKit/QuartzCore (= 4.2.0)
+    - PromiseKit/UIKit (= 4.2.0)
+  - PromiseKit/CorePromise (4.2.0)
+  - PromiseKit/Foundation (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.0):
+    - PromiseKit/CorePromise
+  - RxSwift (3.4.1)
+  - Socket.IO-Client-Swift (8.3.3)
+  - WeDeploy (0.4.0):
+    - PromiseKit (~> 4.0)
+    - RxSwift (~> 3.0)
+    - Socket.IO-Client-Swift (~> 8.1)
+
+DEPENDENCIES:
+  - WeDeploy
+
+SPEC CHECKSUMS:
+  PromiseKit: 08dfb783c161ddcd95b7912421f14c5113fd8318
+  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
+  WeDeploy: f1c38fb1113748356e72b3bf1162d31438dfc2aa
+
+PODFILE CHECKSUM: 57ed0a5aa52828b32e398b3fb70fb043f1ab4c51
+
+COCOAPODS: 1.2.0
