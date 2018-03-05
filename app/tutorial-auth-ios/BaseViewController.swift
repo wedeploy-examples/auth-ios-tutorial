@@ -17,7 +17,7 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
-	let authUrl = "http://auth.boilerplate-auth.wedeploy.io"
+	let authUrl = "https://auth-boilerplateauth.wedeploy.io"
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
